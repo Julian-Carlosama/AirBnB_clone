@@ -1,0 +1,26 @@
+ /* Styles generals for all AirBnB project  */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background: silver;*/
+}
+
+/* Properties for the container class */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    /*top: 30px;*/
+   /* bottom: 30px;*/
+    /* inside the container *
+    background: white;
+    height: 70%;
+    width: 100%; / of the container *
+    border: 1px solid #DDDDDD;
+    radius: 4px;*/
+}

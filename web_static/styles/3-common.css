@@ -1,0 +1,12 @@
+/* Styles generals for all AirBnB project  */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background: silver;*/
+}
