@@ -2,7 +2,7 @@
 .places {
     /* flex box */
     display: flex;
-    justify-content: center;
+    justify-content: center;/* center items */
     flex-wrap: wrap;
     /*background: silver;*/
 }
@@ -25,4 +25,22 @@
     /* flex box */
     display: flex;
     justify-content: center; /* Center text */
+    align-items: flex-start;
+    /*align-items: baseline;*/
+    /*background: silver;*/
+}
+
+article .price_by_night {
+    /*background: purple;*/
+    color: #FF5A5F;
+    border: 3px solid #FF5A5F; /* Pendiente */
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    
+    /* flex box */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
