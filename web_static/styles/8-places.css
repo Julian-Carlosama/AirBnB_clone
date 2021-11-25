@@ -14,6 +14,10 @@
 
 .places h2 {
     font-size: 30px;
+    width: 80%;
+    height: auto;
+    /*background-color: red;*/
+    margin-left: 35%;
 }
 
 .places article {
@@ -23,24 +27,82 @@
     border: 1px solid #FF5A5F;
     border-radius: 4px;
     /* flex box */
-    display: flex;
     justify-content: center; /* Center text */
-    align-items: flex-start;
-    /*align-items: baseline;*/
     /*background: silver;*/
 }
 
-article .price_by_night {
+.price_by_night {
     /*background: purple;*/
     color: #FF5A5F;
     border: 3px solid #FF5A5F; /* Pendiente */
     border-radius: 50%;
     min-width: 60px;
+    max-width: 40px;
     height: 60px;
     font-size: 30px;
-    
+    margin-left: auto;
+    padding: 5px;
     /* flex box */
     display: flex;
-    align-items: center;
+    align-items: center;/* center vertical */
+    justify-content: center;/* center Horizontal */
+    margin-top: -80px;
+}
+
+.information {
+    height: 80px;
+    width: auto;
+    /*position: relative;*/
+    /*background: silver;*/
+    border-top: 1px solid  #DDDDDD;
+    border-bottom: 1px solid  #DDDDDD;
+    margin-top: 20px;
+    /* flex box */
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    /*align-items: center; can works for center the text*/
+}
+
+.information h4 {
+    /*margin-top: 55%;*/
+    font-weight: normal;
+}
+
+.max_guest {
+    width: 100px;
+    background: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+.number_rooms {
+    width: 100px;
+    background: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+.number_bathrooms {
+    width: 100px;
+    background: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+.user {
+    display: flex;
+}
+
+.user h4 {
+    font-weight: normal;
+    margin-left: 5px;
 }
