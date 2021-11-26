@@ -1,0 +1,158 @@
+/* Styles for places section */
+.places {
+    /* flex box */
+    display: flex;
+    justify-content: center;/* center items */
+    flex-wrap: wrap;
+    /*background: silver;*/
+}
+.places h1 {
+    width: 100%;
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+.places h2 {
+    font-size: 30px;
+    width: 80%;
+    height: auto;
+    /*background-color: red;*/
+    margin-left: 35%;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    /* flex box */
+    justify-content: center; /* Center text */
+    /*background: silver;*/
+}
+
+/* Styles for price section */
+.price_by_night {
+    /*background: purple;*/
+    color: #FF5A5F;
+    border: 3px solid #FF5A5F; /* Pendiente */
+    border-radius: 50%;
+    min-width: 60px;
+    max-width: 40px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: auto;
+    padding: 5px;
+    /* flex box */
+    display: flex;
+    align-items: center;/* center vertical */
+    justify-content: center;/* center Horizontal */
+    margin-top: -80px;
+}
+
+/* Styles for general information section */
+.information {
+    height: 80px;
+    width: auto;
+    /*position: relative;*/
+    /*background: silver;*/
+    border-top: 1px solid  #DDDDDD;
+    border-bottom: 1px solid  #DDDDDD;
+    margin-top: 20px;
+    /* flex box */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center; can works for center the text*/
+}
+
+.information h4 {
+    /*margin-top: 55%;*/
+    font-weight: normal;
+}
+
+.max_guest {
+    width: 100px;
+    background: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+.number_rooms {
+    width: 100px;
+    background: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+.number_bathrooms {
+    width: 100px;
+    background: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    /*background-position: top;*/
+    background-position: right 50% bottom 90%;
+    text-align: center;
+    line-height: 95px;
+}
+
+/* Style for user section */
+.user {
+    display: flex;
+}
+
+.user h4 {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+/* Style for amenities section */
+article .amenities, .reviews {
+   margin-top: 40px;
+    /*background: silver;*/
+    width: auto;
+    height: auto;
+    /*border-bottom: 1px solid #DDDDDD;*/
+}
+
+article .amenities h2, .reviews h2 {
+    margin-left: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    /*background: silver;*/
+}
+
+article .amenities ul, article .reviews ul {
+    padding: 3px;
+    /*background: silver;*/
+    margin-top: 0px;
+}
+
+article .amenities ul li {
+    /*margin-left: -40px;*/
+    list-style: none;
+    height: 20px;
+    background-size: contain;
+    line-height: 150%;
+    padding-left: 8%;
+    margin-bottom: 5px;
+}
+
+article .amenities ul .tv {
+    background-image: url("../images/icon_tv.png");
+    background-repeat: no-repeat;
+}
+
+article .amenities ul .wifi {
+    background-image: url("../images/icon_wifi.png");
+    background-repeat: no-repeat;
+}
+
+article .amenities ul .pets {
+    background-image: url("../images/icon_pets.png");
+    background-repeat: no-repeat;
+}
